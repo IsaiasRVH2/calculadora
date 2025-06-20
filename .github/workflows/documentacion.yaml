@@ -9,7 +9,7 @@ jobs:
 
         steps:
           - name: Hello World Action by IsaiasRVH2
-            uses: IsaiasRVH2/hello-world-javascript-action@v1.0
+            uses: IsaiasRVH2/hello-world-javascript-action@v1.1
             with:
               who_to_greet: "Isaias"
           - name: Checkout
