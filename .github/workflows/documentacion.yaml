@@ -8,6 +8,10 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
+          - name: Saludar
+            uses: IsaiasRVH2/hello-world-action-by-isaiasrvh2@v1.0
+            with:
+              who_to_greet: Isaias
           - name: Checkout
             uses: actions/checkout@v4
           
