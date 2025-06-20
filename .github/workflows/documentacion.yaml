@@ -11,7 +11,7 @@ jobs:
           - name: Hello World Action by IsaiasRVH2
             uses: IsaiasRVH2/hello-world-javascript-action@v1.0
             with:
-              who_to_greet: Isaias
+              who_to_greet: "Isaias"
           - name: Checkout
             uses: actions/checkout@v4
           
